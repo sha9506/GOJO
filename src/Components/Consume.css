@@ -1,0 +1,22 @@
+.consume-bg
+{
+    background-image: url('./Assets/Generate.png');
+    height: 1024px;
+}
+.content-consume
+{
+    padding: 20px;
+}
+.consume-head
+{
+    font-size: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+.image
+{
+    padding: 10px;
+    width: 718px;
+    height: 404px;
+}

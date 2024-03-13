@@ -7,7 +7,7 @@ import Consume from './Components/Consume';
 
 const App =()=>
 {
-  const[pageNumber, setPageNumber]=useState(4);
+  const[pageNumber, setPageNumber]=useState(1);
 
   const energyName = ['SOLAR', 'HYDRO', 'OIL', 'COAL'];
   const[trackName, setTrackName]=useState(

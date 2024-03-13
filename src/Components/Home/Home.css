@@ -1,0 +1,114 @@
+.background
+{
+    background-image: url('../Assets/Home.png');
+    height: 1024px;
+}
+
+.main-box
+{
+    display: flex;
+    flex-direction: row;
+}
+.nav-bar
+{
+    background-color: #120B36;
+    width: 281px;
+    height: 1024px;
+}
+.nav-bar-item
+{
+    margin-top: 50px;
+    padding: 20px;
+}
+.nav-button
+{
+    font-size: 30px;
+    color: #8F8F8F;
+    margin-bottom: 20px;
+}
+:hover.nav-button
+{
+    color: white;
+}
+.content
+{
+    display: flex;
+    flex-direction: column;
+    margin-top: 180px;    
+    padding: 20px;
+    margin-left: 30px;
+}
+.track
+{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+.track-list
+{
+    height: 290px;
+    width: 827px;
+    padding: 30px;
+}
+.track-item
+{
+    font-size: 20px;
+    border-bottom: 2px solid #2B2C3B;
+    padding: 15px;
+    color: white;
+    font-size: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: bold;
+}
+.track-abv
+{
+    color: #B982FF;
+}
+.track-rate
+{
+    color: #0DBB7C;
+}
+.transaction-bg
+{
+    background-color: #000000 ;
+    border-radius: 20px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    opacity: 0.6;
+}
+.transactions
+{
+    font-size: 30px;
+    color: white;
+    font-weight: bolder;
+}
+.transactions-head
+{
+    color: white;
+    display: flex;flex-direction: row;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 10px;
+}
+.transaction-list
+{
+    padding: 30px;
+}
+.transaction-item
+{
+    font-size: 20px;
+    border-bottom: 2px solid #2B2C3B;
+    padding: 15px;
+    color: white;
+    font-size: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: bold;
+}

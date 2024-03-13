@@ -28,7 +28,7 @@ const Generate= ({energyName , setPageNumber})=>
         <div className="nav-bar">
              <div className="title">GOJO</div>
                 <div className="nav-bar-item">
-                    <div className="nav-button" onCanPlay={handleHome}>Home</div>
+                    <div className="nav-button" onClick={handleHome}>Home</div>
                     <div className="nav-button">Wallet</div>
                     <div className="nav-button"onClick={handleGenerate} > Generate</div>
                     <div className="nav-button" onClick={handleConsume}>Consume</div>
